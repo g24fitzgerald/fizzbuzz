@@ -11,3 +11,20 @@ Hint: Go read about the [Remainder Operator](https://developer.mozilla.org/en-US
 A typical output in the chrome dev tools would look like this:
 
 <img src="https://i.imgur.com/avioQC8.png" width="400px">
+
+#### Solution
+
+```javascript
+for (i = 1; i < 101; i++) {
+
+  if((i % 3 === 0) && (i % 5 === 0)) {
+    console.log("fizzbuzz");
+  } else if(i % 3 === 0) {
+    console.log("fizz");
+  } else if(i % 5 === 0) {
+    console.log("buzz");
+  } else {
+    console.log(i);
+  }
+}
+```
