@@ -1,6 +1,6 @@
 # Fizz Buzz
 
-Fizz buzz is a game about division. Create a program that will iterate through numbers from 1 to 101 and log each number in the console.
+Fizz Buzz is a game about division. Create a program that will iterate through numbers from 1 to 101 and log each number in the console.
 
 - In the loop every time a number is divisible by **3**, instead of logging the number itself, the word "fizz" should appear.
 - If the number is divisible by  **5**, the word "buzz" should be logged.
